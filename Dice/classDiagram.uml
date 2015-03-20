@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="52.5" y="240.0">neal.fu.domain.Dice</node>
+    <node x="185.25" y="320.0">neal.fu.domain.Dices</node>
+    <node x="171.22222222222223" y="0.0">neal.fu.domain.Point</node>
+    <node x="0.0" y="160.0">neal.fu.domain.OneRollChances</node>
+    <node x="156.0" y="160.0">neal.fu.domain.Random</node>
+    <node x="164.22222222222223" y="80.0">neal.fu.domain.Chance</node>
+    <node x="261.0" y="160.0">neal.fu.domain.MultipleRollChance</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="neal.fu.domain.Dice" target="neal.fu.domain.OneRollChances">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="neal.fu.domain.MultipleRollChance" target="neal.fu.domain.Chance">
+      <point x="0.0" y="-15.0" />
+      <point x="338.5" y="135.0" />
+      <point x="224.22222222222223" y="135.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="neal.fu.domain.Dices" target="neal.fu.domain.Random">
+      <point x="0.0" y="-15.0" />
+      <point x="21.25" y="15.0" />
+    </edge>
+    <edge source="neal.fu.domain.OneRollChances" target="neal.fu.domain.Chance">
+      <point x="0.0" y="-15.0" />
+      <point x="68.0" y="135.0" />
+      <point x="184.22222222222223" y="135.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="neal.fu.domain.Dice" target="neal.fu.domain.Random">
+      <point x="15.5" y="-15.0" />
+      <point x="99.0" y="215.0" />
+      <point x="177.25" y="215.0" />
+      <point x="-21.25" y="15.0" />
+    </edge>
+    <edge source="neal.fu.domain.Dices" target="neal.fu.domain.Dice">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="neal.fu.domain.Dices" target="neal.fu.domain.MultipleRollChance">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="neal.fu.domain.Chance" target="neal.fu.domain.Point">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="208.5" y="155.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
